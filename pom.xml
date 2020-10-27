@@ -16,6 +16,7 @@
         <boot.version>2.3.3.RELEASE</boot.version>
         <fastjson.version>1.2.73</fastjson.version>
         <UserAgentUtils.version>1.21</UserAgentUtils.version>
+        <hutool.version>5.1.0</hutool.version>
     </properties>
 
     <dependencies>
@@ -58,6 +59,11 @@
             <groupId>eu.bitwalker</groupId>
             <artifactId>UserAgentUtils</artifactId>
             <version>${UserAgentUtils.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>${hutool.version}</version>
         </dependency>
 
 
